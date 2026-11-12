@@ -32,7 +32,7 @@ Some important features include:
 - Navigation between classes, files, and functions.
 
 
-## 5. Doxygen Documentation Commands
+## 4. Doxygen Documentation Commands
 
 Doxygen provides special commands that are used inside documentation comments.
 
@@ -50,7 +50,7 @@ Doxygen provides special commands that are used inside documentation comments.
 
 These commands help organize source code documentation in a readable format.
 
-## 6. Writing Documentation Comments
+## 5. Writing Documentation Comments
 
 Doxygen supports special comment formats.
 
@@ -76,11 +76,11 @@ Here:
 - `@param` explains the input parameters.
 - `@return` explains the returned result.
 
-## 7. Practical Assignment: Multi-file C++ Project
+## 6. Practical Assignment: Multi-file C++ Project
 
 The practical assignment involved generating documentation for a C++ project containing two main classes.
 
-### 7.1 Logger Class
+### 6.1 Logger Class
 
 The `Logger` class provides logging functionality.
 
@@ -96,7 +96,7 @@ The class contains:
 - A constructor that accepts the logger name.
 - A `log()` function that displays messages with their corresponding severity levels.
 
-### 7.2 CalculationEngine Class
+### 6.2 CalculationEngine Class
 
 The `CalculationEngine` class performs mathematical calculations and uses the Logger class to display operation messages.
 
@@ -110,7 +110,7 @@ It supports the following operations:
 
 The division function also handles division by zero by logging an error and throwing an `invalid_argument` exception.
 
-## 8. Project File Structure
+## 7. Project File Structure
 
 The project contains the following files:
 
@@ -139,7 +139,7 @@ Doxygen_Assignment/
 | html/ | Contains generated HTML documentation |
 | latex/ | Contains generated LaTeX documentation |
 
-## 9. Doxyfile Configuration
+## 8. Doxyfile Configuration
 
 A Doxyfile is a configuration file that controls how Doxygen generates documentation.
 
@@ -170,7 +170,7 @@ INLINE_SOURCES = YES
 
 These settings specify the project name, input files, documentation extraction options, and output formats.
 
-## 10. Generating Documentation
+## 9. Generating Documentation
 
 The following steps were performed to generate the documentation:
 
@@ -190,7 +190,7 @@ doxygen Doxyfile
 
 After successful execution, Doxygen generated the documentation inside the configured output directories.
 
-## 11. Generated HTML Documentation
+## 10. Generated HTML Documentation
 
 Doxygen generated an HTML documentation website for the project.
 
@@ -212,14 +212,14 @@ html/index.html
 
 This allows users to explore the project through a web browser.
 
-## 13. Advantages of Doxygen
+## 11. Advantages of Doxygen
 
 - Automatically generates documentation from source code.
 - Makes large software projects easier to understand.
 - Supports multiple programming languages.
 - Generates HTML and LaTeX documentation.
 
-## 14. Conclusion
+## 12. Conclusion
 
 Doxygen is an effective tool for generating technical documentation from source code.
 

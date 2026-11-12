@@ -12,7 +12,6 @@ The main objectives of learning Beamer are:
 - To create professional presentation slides using LaTeX.
 - To create title slides and content slides.
 - To organize presentations using frames and sections.
-- To insert images and mathematical equations.
 - To use themes and color schemes.
 
 ## 3. Sample text

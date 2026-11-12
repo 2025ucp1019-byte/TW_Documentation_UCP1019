@@ -14,8 +14,6 @@ The main objectives of learning Beamer are:
 - To organize presentations using frames and sections.
 - To insert images and mathematical equations.
 - To use themes and color schemes.
-- To create numbered and bulleted lists.
-- To compile presentations into PDF format.
 
 ## 3. Sample text
 \documentclass{beamer}
